@@ -12,38 +12,26 @@ function ExibeMenu()
     echo 'Aguardando novo comando!' . PHP_EOL;
 }
 
-function Adicao()
+function Adicao(float $valor1, float $valor2)
 {
     echo 'Adição selecionado' . PHP_EOL;
-    $valor1 = readline("Digite o valor 1: ");
-    $valor2 = readline("Digite o valor 2: ");
-
     return  $valor1 + $valor2;
 }
 
-function Subtracao()
+function Subtracao(float $valor1, float $valor2)
 {
     echo 'Subtração selecionado' . PHP_EOL;
-    $valor1 = readline("Digite o valor 1: ");
-    $valor2 = readline("Digite o valor 2: ");
-
     return $valor1 - $valor2;
 }
 
-function Multiplicacao()
+function Multiplicacao(float $valor1, float $valor2)
 {
     echo 'Multiplicação selecionado' . PHP_EOL;
-    $valor1 = readline("Digite o valor 1: ");
-    $valor2 = readline("Digite o valor 2: ");
-
     return $valor1 * $valor2;
 }
 
-function Divisao()
+function Divisao(float $valor1, float $valor2)
 {
     echo 'Divisão selecionado' . PHP_EOL;
-    $valor1 = readline("Digite o valor 1: ");
-    $valor2 = readline("Digite o valor 2: ");
-
     return $valor1 / $valor2;
 }
